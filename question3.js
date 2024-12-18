@@ -3,7 +3,7 @@
 // och returner den nya arrayen.
 
 function removeApples(fruits) {
-  const newFruites = fruits.slice(1, -1);
+  const newFruits = fruits.slice(1, -1);
   
   return newFruites;
 }

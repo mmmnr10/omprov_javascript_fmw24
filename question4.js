@@ -15,11 +15,11 @@ function greeting(name, city) {
   return `Hej, jag heter ${name} och bor i ${city}`;
 }
 
-// Plocka ut name och city med destructuring här:
+
 const { name } = person;
 const { stad } = person;
 
-// Anropa funktionen greeting här (den ska returnera "Hej, jag heter Anna och bor i Stockholm" ):
+
 
 console.log(greeting());
 

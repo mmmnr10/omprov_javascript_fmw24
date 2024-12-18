@@ -6,7 +6,7 @@
 const person = {
   name: "Anna",
   age: 25,
-  stad: "Stockholm",
+  city: "Stockholm",
 };
 
 function greeting(name, city) {

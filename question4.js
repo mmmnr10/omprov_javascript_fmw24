@@ -9,10 +9,10 @@ const person = {
   stad: "Stockholm",
 };
 
-function greeting(name, age) {
+function greeting(name, city) {
   // Din kod här:
 }
 
-// Plocka ut name och age med destructuring här:
+// Plocka ut name och city med destructuring här:
 
 // Anropa funktionen greeting här (den ska returnera "Hej, jag heter Anna och bor i Stockholm" ):

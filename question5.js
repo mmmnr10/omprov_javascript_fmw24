@@ -13,3 +13,11 @@ const contactInfo = {
   phone: "123-456-789",
   email: "kalle@mail.com",
 };
+
+const fullInfo = {
+  ...personInfo,
+  ...contactInfo,
+  city: "Göteborg"
+};
+
+console.log(fullInfo);

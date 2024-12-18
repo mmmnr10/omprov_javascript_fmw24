@@ -3,7 +3,9 @@
 // och returner den nya arrayen.
 
 function removeApples(fruits) {
-  //Din kod här
+  const newFruites = fruits.slice(1, -1);
+  
+  return newFruites;
 }
 
 console.log(removeApples(["apple", "banana", "orange", "apple"])); // ska logga ["banana", "orange"]
